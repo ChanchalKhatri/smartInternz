@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const moviesApi = axios.create({
   baseURL:
-    "https://api.themoviedb.org/3/movie/550?api_key=9759996e0cb3c900b0862492830d0fbd",
+    "https://api.themoviedb.org/3/movie/550?api_key=[Enter your API key]",
   params: {
     api_key: process.env.REACT_APP_TMDB_KEY,
   },
